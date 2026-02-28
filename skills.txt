@@ -1,0 +1,89 @@
+Java
+JEE
+Spring
+Hibernate
+PostgreSQL
+SQL
+H2 DB
+MySQL
+Oracle
+MS SQL
+VoltDB
+Apache Ignite
+No SQL
+MongoDB
+Redis
+Apache Cassandra
+Apache ActiveMQ
+RabbitMQ
+Apache Kafka
+Apache ZooKeeper
+IBM MQ
+Cloud
+Google Cloud
+Azure Functions
+AWS S3
+Minio S3
+Heroku
+JUnit
+Allure
+Selenium
+Selenium Grid
+Playwright
+RestAssured
+Apache JMeter
+ANT
+MAVEN
+Gradle
+Jenkins
+TeamCity
+GitLab
+Shell scripting
+CVS
+SVN
+GIT
+IntelliJ
+Eclipse
+NetBeans
+SWING
+JSP
+Apache STRUTS
+jQuery
+GWT
+GXT
+ExtJs
+React
+Vue.js
+TypeScript
+Angular
+Backbone
+Bootstrap
+BPMN
+CI/CD
+Docker
+Documentum
+Flowable
+GridGain
+gRPC
+HTML
+JavaScript
+CSS
+Jakarta
+JasperReports
+JavaEE
+Jira
+Kubernetes
+Docker Swarm
+Linux
+Windows
+Liquibase
+Neo4J
+Nginx
+OpenApi
+Swagger
+Apache POI
+Quartz
+QueryDSL
+Rest
+Spring Boot
+UML
