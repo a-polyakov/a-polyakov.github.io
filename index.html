@@ -10,81 +10,100 @@
             margin-top: 0.2em;
             margin-bottom: 0.2em;
         }
+
         ul {
             margin-block-start: 0.3em;
             margin-block-end: 0.3em;
+            padding-left: 1em;
         }
+
         .job-date {
             float: right;
         }
+
         .moreExperience {
             display: none;
         }
+
         @media screen {
             body {
                 margin-left: 10px;
                 margin-right: 10px;
             }
+
             .content {
                 max-width: 800px;
                 margin-left: auto;
                 margin-right: auto;
             }
         }
+
         @media print {
             .notPrint {
                 display: none !important;
             }
+
             a {
                 color: black;
                 text-decoration: none;
             }
+
             .noBreak {
                 break-inside: avoid;
             }
         }
-
-
     </style>
     <script type="text/javascript">
         function clickMoreExperience(link) {
             for (let el of document.querySelectorAll('.moreExperience')) {
-                if (el.style.display == ""){
+                if (el.style.display == "") {
                     el.style.display = "inline";
                 } else {
                     el.style.display = "";
                 }
             }
-            if (link.value === "Open more experience"){
+            if (link.value === "Open more experience") {
                 link.value = "Close old experience";
             } else {
                 link.value = "Open more experience";
             }
         }
-
     </script>
 </head>
 <body>
 <div class="content">
     <h1>Oleksandr Poliakov</h1>
-    <h3>&#128188; Senior Java Developer | Team Lead | Software Architect | Technical Project Manager</h3>
-<!--    <h3>&#128188; Software Developer</h3>-->
-<!--    <h3>&#128188; Senior Java Full Stack Developer</h3>-->
+    <!--    <h3>&lt;!&ndash;&#128188;&ndash;&gt; Senior Java Developer | Team Lead | Software Architect | Technical Project Manager</h3>-->
+    <!--    <h3>&#128188; Software Developer</h3>-->
+    <!--    <h3>&#128188; Senior Java Full Stack Developer</h3>-->
+    <h3>SENIOR JAVA DEVELOPER</h3>
+<!--    <h3>JAVA DELIVERY LEAD</h3>-->
 
     <hr/>
-    &phone;&nbsp;<a href="tel://+16474650023">+1 647 465 00 23</a>
+    <!--&phone;-->&#x260F; <a href="tel://+16474650023">+1 647 465 00 23</a>
 
-    📧<!--&#9993;-->&nbsp;<a href="mailto://polyakov_alex@ukr.net">polyakov_alex@ukr.net</a>
+    <!--📧&#9993;-->&#9993; <a href="mailto://polyakov_alex@ukr.net">polyakov_alex@ukr.net</a>
 
-    <!--🌍-->🔗<a href="https://www.linkedin.com/in/polyakov-alex">linkedin.com/in/polyakov-alex</a>
+    <!--🌍&#128279;&#128376;-->&#128376; <a href="https://www.linkedin.com/in/polyakov-alex">linkedin.com/in/polyakov-alex</a>
 
-    🏠<!--&#127758;-->&nbsp;Canada,&nbsp;ON,&nbsp;Whitby<br/>
+    <!--&#8962;🏠&#127758;&#127969;--><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 20" width="15" height="15" fill="none">
+    <path d="M12 22s7-6 7-12a7 7 0 1 0-14 0c0 6 7 12 7 12Z"
+          stroke="currentColor"
+          stroke-width="1"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+    />
+    <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1"/>
+</svg> Canada,&nbsp;ON,&nbsp;Whitby<br/>
     <br/>
-    Motivated to join a team where I can deliver high-quality solutions, share my expertise, and contribute to the company’s growth.
+    Motivated to join a team where I can deliver high-quality solutions, share my expertise, and contribute to the
+    company’s growth.
     <h3>SUMMARY</h3>
-    Senior Java Developer and Team Lead with 15+ years of experience in enterprise software engineering and system architecture.
+    Senior Java Developer and Team Lead with 15+ years of experience in enterprise software engineering and system
+    architecture.
     Strong expertise in scalable web applications, microservices, and distributed systems.
-    Proven track record of mentoring developers, leading teams of 10+, and delivering projects end-to-end from requirements to production.
+    Proven track record of mentoring developers, leading teams of 10+, and delivering projects end-to-end from
+    requirements to production.
 
     <h3>TECHNICAL SKILLS</h3>
     <ul>
@@ -106,19 +125,26 @@
             <a href="www.querydsl.com">QUERYDSL</a>,
             <a href="https://docs.liquibase.com/home.html">LIQUIBASE</a>
         </li>
-        <li>Databases: Relational databases, PostgreSQL, H2, MySQL, Oracle, MS SQL, VoltDB, Apache Ignite, NoSQL, MongoDB, Redis, Apache Cassandra</li>
+        <li>Databases: Relational databases, PostgreSQL, H2, MySQL, Oracle, MS SQL, VoltDB, Apache Ignite, NoSQL,
+            MongoDB, Redis, Apache Cassandra
+        </li>
         <li>Message broker: ActiveMQ, RabbitMQ, Kafka, ZooKeeper, IBM MQ</li>
         <li>API: REST (json), SOAP (xml), gRPC (protobuf), GraphQL</li>
-        <li>Cloud: GCP (Google Cloud Platform) App Engine, Azure Functions, AWS (Amazon Web Services) S3, Minio S3, Heroku</li>
+        <li>Cloud: GCP (Google Cloud Platform) App Engine, Azure Functions, AWS (Amazon Web Services) S3, Minio S3,
+            Heroku
+        </li>
         <li>Containers: Docker, Docker Compose, Docker Swarm, Kubernetes</li>
         <li>Monitoring: Zabbix, Grafana, Prometheus, Elasticsearch, Logstash, Kibana, OpenTracing, OpenTelemetry</li>
-        <li>Front-end: SWING, JSP, <a href="https://struts.apache.org/">STRUTS</a>, jQuery, GWT, GXT, ExtJs, React, Vue.js, TypeScript, Angular</li>
+        <li>Front-end: SWING, JSP, <a href="https://struts.apache.org/">STRUTS</a>, jQuery, GWT, GXT, ExtJs, React,
+            Vue.js, TypeScript, Angular
+        </li>
         <li>Testing: JUnit, Allure, Selenium(+Grid), Playwright, RestAssured, JMeter</li>
         <li>Build automation: ANT, MAVEN, Gradle</li>
         <li>CI/CD: Jenkins, TeamCity, GitLab CI, GitHub Actions, Shell scripting</li>
         <li>Version Control Systems: CVS, SVN, GIT</li>
-        <li>IDE: IntelliJ, Eclipse, NetBeans</li>
-<!--        Microservices Architecture, Distributed Systems, Software Engineering, Software Design, Database Design, Requirements Gathering, Business Requirements, Architectural Design, Technical Vision, Technical Leadership, Mentorship, Leadership, Problem Troubleshooting, Debugging, Automated Testing, DevOps, Performance Tuning, Scalability, Capacity Planning, Coding Standards, Artificial Intelligence (AI), Written and Verbal Communication, Cross-functional Collaboration, Verbal Communication Skills, Constructive Feedback, Technical Skills, Lead by Example, Collaborative, Enthusiastic, Reliability, Analytical, Articulate, Supportive, Creativity, Coach-->
+        <li>IDE: IntelliJ, Eclipse, NetBeans, Visual Studio Code</li>
+        <li>AI Tools: Cursor, Copilot, ChatGPT, OpenAI API, Ollama, LLaMA.cpp</li>
+        <!--        Microservices Architecture, Distributed Systems, Software Engineering, Software Design, Database Design, Requirements Gathering, Business Requirements, Architectural Design, Technical Vision, Technical Leadership, Mentorship, Leadership, Problem Troubleshooting, Debugging, Automated Testing, DevOps, Performance Tuning, Scalability, Capacity Planning, Coding Standards, Artificial Intelligence (AI), Written and Verbal Communication, Cross-functional Collaboration, Verbal Communication Skills, Constructive Feedback, Technical Skills, Lead by Example, Collaborative, Enthusiastic, Reliability, Analytical, Articulate, Supportive, Creativity, Coach-->
     </ul>
     <div class="noBreak">
         <h3>CERTIFICATES</h3>
@@ -128,122 +154,221 @@
         <a href="https://www.credly.com/badges/c764e1c8-4263-4b42-b04f-bb08a76dcf39/public_url">Java SE 6 Programmer</a><br/>
     </div>
     <hr/>
-<!--    <div class="noBreak">-->
-        <h3>PROFESSIONAL EXPERIENCE</h3>
-        <b>Senior Java Developer</b>, "Netodis", <span class="job-date">July 2022 - Present</span><br/>
-        Current project:<br/>
-        Improve production stability and performance by fixing critical defects and refactoring core modules (Java, Spring).<br/>
-        Optimize SQL queries and Hibernate mappings to reduce latency under peak load and improve throughput.<br/>
-        Increased test coverage with JUnit and strengthened CI checks for safer releases.<br/>
-        Previous projects:<br/>
-<!--    </div>-->
-<!--    <br/>-->
-<!--    <b>Senior Java Developer</b>, Freelance, <span class="job-date">July 2022 - November 2024</span><br/>-->
-    Improved and enhanced existing systems for multiple customers across various industries, applying best practices in software engineering and system design.<br/>
-    For the classifieds website, created a separate listing type for containers, including volume calculation, pricing, and scheduling for delivery and pickup.<br/>
-    Rewrote the integration between two legacy systems. One of them was upgraded and moved from FTP to S3.
-    Analyzed the existing implementation and rebuilt the integration accordingly.<br/>
-    Worked on bypassing a website CAPTCHA. In addition to text input, it offered an audio option, which a local model (Whisper-large-v3-turbo) was able to process and transcribe.<br/>
-    For a robotic call center, developed tests to validate conversation scenarios, ensuring that all required questions were asked and edge cases were handled.
-    The issue was that while the system responded correctly to some predefined inputs, it behaved incorrectly in others,
-    and manually verifying all scenarios was too time-consuming. A local AI model (Ollama, codellama) was used to validate the larger AI model after each retraining.<br/>
-    Architected and modernized service (Microservices) boundaries and APIs (Rest, OpenApi/Swagger) to enable independent team delivery and safer change management.<br/>
-    Created and maintained detailed test cases and test scenarios, ensuring comprehensive functional and regression test coverage.<br/>
-    Improved system reliability, maintainability, and deployment workflows through automated testing and continuous integration practices.<br/>
+    <!--    <div class="noBreak">-->
+    <h3>PROFESSIONAL EXPERIENCE</h3>
+    <b>Senior Java Developer</b>, "Netodis", <span class="job-date">July 2022 - Present</span><br/>
+    <!--        <b>Senior Java Developer</b>, "Netodis", <span class="job-date">November 2024 - Present</span><br/>-->
+    <!--        Current project:<br/>-->
+    <ul>
+        <li>Improve production stability and performance by fixing critical defects and refactoring core modules (Java,
+            Spring).
+        </li>
+        <li>Optimize SQL queries and Hibernate mappings to reduce latency under peak load and improve throughput.</li>
+        <li>Increased test coverage with JUnit and strengthened CI checks for safer releases.</li>
+        <!--    </ul>-->
+        <!--        Previous projects:<br/>-->
+        <!--    </div>-->
+        <!--    <br/>-->
+        <!--    <b>Senior Java Developer</b>, Freelance, <span class="job-date">July 2022 - November 2024</span><br/>-->
+        <!--        Improved and enhanced existing systems for multiple customers across various industries, applying best practices in software engineering and system design.-->
+        <!--    <ul>-->
+        <li>Developed a dedicated listing type for container-based classifieds, including volume calculation, pricing,
+            and delivery scheduling
+        </li>
+        <li>Rewrote the integration between two legacy systems. One of them was upgraded and moved from FTP to S3.
+            Analyzed the existing implementation and rebuilt the integration accordingly.
+        </li>
+        <li>Worked on bypassing a website CAPTCHA. In addition to text input, it offered an audio option, which a local
+            model (Whisper-large-v3-turbo) was able to process and transcribe.
+        </li>
+        <li>For a robotic call center, developed tests to validate conversation scenarios, ensuring that all required
+            questions were asked and edge cases were handled.
+            The issue was that while the system responded correctly to some predefined inputs, it behaved incorrectly in
+            others, and manually verifying all scenarios was too time-consuming. A local AI model (Ollama, codellama)
+            was used to validate the larger AI model after each retraining.
+        </li>
+        <li>Architected and modernized service (Microservices) boundaries and APIs (Rest, OpenApi/Swagger) to enable
+            independent team delivery and safer change management.
+        </li>
+        <li>Created and maintained detailed test cases and test scenarios, ensuring comprehensive functional and
+            regression test coverage.
+        </li>
+        <li>Improved system reliability, maintainability, and deployment workflows through automated testing and
+            continuous integration practices.
+        </li>
+    </ul>
     <br/>
     <div class="noBreak">
         <b>Senior Java Developer</b>, <a href="https://www.gridgain.com/">"GridGain"</a>, <span class="job-date">April 2018 - June 2022</span><br/>
-        Worked on the GridGain (Apache Ignite) platform for distributed in-memory data storage and high-performance computing built on Java.
-        Diagnosed and resolved critical production issues reported by enterprise customers under tight deadlines, ensuring cluster stability and high availability.
-        Contributed to improving system performance and fault tolerance through profiling, optimization, and test automation.
-        Collaborated closely with cross-functional teams (QA, DevOps, Support) to enhance release quality and delivery speed.
-        Implemented internal tools and frameworks for testing distributed environments, including custom simulators for network failures, disk latency, and node restarts - since no off-the-shelf testing tools could handle such scenarios.<br/>
+        Worked on the GridGain (Apache Ignite) platform for distributed in-memory data storage and high-performance
+        computing built on Java.
+        <ul>
+            <li>Diagnosed and resolved critical production issues reported by enterprise customers under tight
+                deadlines, ensuring cluster stability and high availability.
+            </li>
+            <li>Contributed to improving system performance and fault tolerance through profiling, optimization, and
+                test automation.
+            </li>
+            <li>Collaborated closely with cross-functional teams (QA, DevOps, Support) to enhance release quality and
+                delivery speed.
+            </li>
+            <li>Implemented internal tools and frameworks for testing distributed environments, including custom
+                simulators for network failures, disk latency, and node restarts - since no off-the-shelf testing tools
+                could handle such scenarios.
+            </li>
+        </ul>
     </div>
     <br/>
     <b>Senior Java Developer</b>, <a href="https://bia-tech.ru/">"BIA-Technologies"</a>, <span class="job-date">August 2017 - April 2018</span><br/>
-    First project: Developed a web application for building profile link graphs front (GWT), backend (Java, Spring, Hibernate), collecting data from social networks, editing profiles, creating permanent and temporary links, and providing search functionality.<br/>
-    Second project: Designed and developed microservices for the logistics platform GETCARGO, implementing an Uber-style platform for cargo transportation, utilizing cloud infrastructure, Docker containerization, and Kubernetes orchestration, for external communication - REST, for internal communication - gRPC.<br>
+    <ul>
+        <li>First project: Developed a web application for building profile link graphs front (GWT), backend (Java,
+            Spring, Hibernate), collecting data from social networks, editing profiles, creating permanent and temporary
+            links, and providing search functionality.
+        </li>
+        <li>Second project: Designed and developed microservices for the logistics platform GETCARGO, implementing an
+            Uber-style platform for cargo transportation, utilizing cloud infrastructure, Docker containerization, and
+            Kubernetes orchestration, for external communication - REST, for internal communication - gRPC.
+        </li>
+    </ul>
     <br/>
-    <b>Senior Java Developer <span title="Career growth">&#10148;</span> Team Lead <span title="Promotion">&#10148;</span> Head of the Development team</b>,
+    <b>Senior Java Developer <span title="Career growth">&#10148;</span> Team Lead <span
+            title="Promotion">&#10148;</span> Head of Development team</b>,
     "UNIT-ORG", <span class="job-date">April 2015 - July 2017</span><br/>
-    Maintained and enhanced a legacy service desk system (ExtJs, JEE, GlassFish, Hibernate, PostgreSQL)..<br/>
-    Developed a web application to automate service processes, including application and contract management,
-    mail and call processing, coordination workflows,
-    warehouse accounting (incoming, outgoing, orders, reservations, movements),
-    reference data management (contractors, goods, warehouses), and analytics (reports, dashboards).<br>
-    Designed and implemented a platform for dynamic data schema and UI configuration without application rebuild,
-    along with BPMN-based business logic execution (React, Spring, Activiti, QueryDSL, PostgreSQL, Redis).<br>
-    Created business processes based on this platform, including tasks, project launches, orders, claims, meetings,
-    vacations, and reference data management.<br>
-    Participated in the design and development of an expert system knowledge base (nginx, jQuery, Spring, MySQL, MongoDB).<br>
-    Developed an internal company management system combining features of communication, task tracking, and monitoring tools (React, Spring, Tomcat, PostgreSQL).<br/>
-    Led technical specification development, coordinated requirements with stakeholders, managed project delivery, led the development team, and mentored engineers.<br/>
+    <ul>
+        <li>Maintained and enhanced a legacy service desk system (ExtJs, JEE, GlassFish, Hibernate, PostgreSQL).</li>
+        <li>Developed a web application to automate service processes, including application and contract management,
+            mail and call processing, coordination workflows, warehouse accounting (incoming, outgoing, orders,
+            reservations, movements), reference data management (contractors, goods, warehouses), and analytics
+            (reports, dashboards).
+        </li>
+        <li>Designed and implemented a platform for dynamic data schema and UI configuration without application
+            rebuild, along with BPMN-based business logic execution (React, Spring, Activiti, QueryDSL, PostgreSQL,
+            Redis).
+        </li>
+        <li>Created business processes based on this platform, including tasks, project launches, orders, claims,
+            meetings, vacations, and reference data management.
+        </li>
+        <li>Participated in the design and development of an expert system knowledge base (nginx, jQuery, Spring, MySQL,
+            MongoDB).
+        </li>
+        <li>Developed an internal company management system combining features of communication, task tracking, and
+            monitoring tools (React, Spring, Tomcat, PostgreSQL).
+        </li>
+        <li>Led technical specification development, coordinated requirements with stakeholders, managed project
+            delivery, led development team, and mentored engineers.
+        </li>
+    </ul>
     <br/>
     <div class="moreExperience">
         <div class="noBreak">
             <b>Senior Java Developer</b>, <a href="http://www.sbsoft.ru/">"SBSOFT"</a>, <span class="job-date">August 2014 - April 2015</span><br/>
-            Developed a web application for automating the processes of the social insurance fund: planning
-            on-site inspections, execution of inspections and related documents, printing, maintenance of directories.<br>
-            Technology: Front (GWT, GXT), Backend (Java, Spring, TopLink, JasperReports, GlassFish), DB (Oracle)<br/>
+            <ul>
+                <li>Developed a web application for automating the processes of the social insurance fund: planning
+                    on-site inspections, execution of inspections and related documents, printing, maintenance of
+                    directories.
+                </li>
+                <li>Technology: Front (GWT, GXT), Backend (Java, Spring, TopLink, JasperReports, GlassFish), DB
+                    (Oracle)
+                </li>
+            </ul>
         </div>
         <br/>
-        <b>Senior Java Developer <span title="Combined positions">+</span> Architect</b>, <a href="https://www.uss-group.ru/">"United
-        Smart Solution"</a>, <span class="job-date">March 2013 - January 2018 (Part-time from 03/2014)</span><br/>
-        Designed and developed a desktop application for managing electronic invoices, including creation, sending/receiving, printing, import/export, and maintaining reference data.<br>
-        Created an application installation and update utility.<br>
-        Application work offline with storage in a local database. Simultaneous work with several local databases: open with
-        a global not encrypted database with reference information and encrypted with e-invoice.<br>
-        Periodic or scheduled synchronization with the server.<br>
-        Implementation of components at the request of the customer.<br>
-        Technology: Desktop (Java, swing, jasperreport), DB (h2, VoltDB), message broker (Kafka, ZooKeeper)<br/>
-<!--        Responsibilities: Designing, Development, Testing, Maintenance<br/>-->
+        <b>Senior Java Developer </b>, <a href="https://www.uss-group.ru/">"United Smart Solution"</a>, <span
+            class="job-date">March 2013 - January 2018 (Part-time from 03/2014)</span><br/>
+        <ul>
+            <li>Designed and developed a desktop application for managing electronic invoices, including creation,
+                sending/receiving, printing, import/export, and maintaining reference data.
+            </li>
+            <li>Created an application installation and update utility.</li>
+            <li>Application work offline with storage in a local database. Simultaneous work with several local
+                databases: open with a global not encrypted database with reference information and encrypted with
+                e-invoice.
+            </li>
+            <li>Periodic or scheduled synchronization with the server.</li>
+            <li>Implementation of components at the request of the customer.</li>
+            <li>Technology: Desktop (Java, swing, jasperreport), DB (h2, VoltDB), message broker (Kafka, ZooKeeper)</li>
+        </ul>
+        <!--        Responsibilities: Designing, Development, Testing, Maintenance<br/>-->
         <br/>
         <div class="noBreak">
             <b>Senior Java Developer</b>, "Awplanet", <span class="job-date">November 2012 - March 2013</span><br/>
-            Developed user account portal with paid-service access and payment integrations (2Checkout, WebMoney).
-            Integration with payment systems (2Checkout, WebMoney).<br>
-            Additionally developed a module for generating websites based on page templates and a database, generated a static set of HTML pages for further publication.<br>
-            Technology: Front (bootstrap, backbone), Backend (Java, Spring, Hibernate, Rest, Tomcat), DB (MySQL, Apache Cassandra)<br/>
-<!--            Responsibilities: Designing, Development, Testing<br/>-->
+            <ul>
+
+                <li>Developed user account portal with paid-service access and payment integrations (2Checkout,
+                    WebMoney). Integration with payment systems (2Checkout, WebMoney).
+                </li>
+                <li>Additionally developed a module for generating websites based on page templates and a database,
+                    generated a static set of HTML pages for further publication.
+                </li>
+                <li>Technology: Front (bootstrap, backbone), Backend (Java, Spring, Hibernate, Rest, Tomcat), DB (MySQL,
+                    Apache Cassandra)
+                </li>
+            </ul>
+            <!--            Responsibilities: Designing, Development, Testing<br/>-->
         </div>
         <br/>
         <div class="noBreak">
-            <b>Senior Java Developer <span title="Combined positions">+</span> Analyst <span title="Combined positions">+</span>
-                Architect <span title="Combined positions">+</span> Project Manager</b>, Private customer, <span class="job-date">March 2012 - November 2012</span><br/>
-            Implementation and design of the application for <a href="https://en.wikipedia.org/wiki/Planogram">planogram</a>,
-            schemes of trading floors, shelving, placement of goods on shelves, maintenance of schemes of standard racks,
-            printing of schemes and related documents, approval of changes, maintenance of the history of changes,
-            interaction with the existing accounting system.<br>
-            Technology: Front (jQuery), Backend (Java, Servlet, jdbc, Tomcat), DB (Oracle)<br/>
-<!--            Responsibilities: Formation of technical specifications, coordination with the customer, managing product roadmaps,-->
-<!--            architecture design, designing, <a href="https://github.com/a-polyakov/ua.obzhora.planogram">development</a>, testing,-->
-<!--            integration, user training, recording a video tutorial of working with the application <a-->
-<!--                href="https://youtube.com/watch?v=VZflAGZNSLY" class="notPrint">watch the video</a><br/>-->
+            <b>Senior Java Developer <span title="Combined positions">+</span> Architect <span
+                    title="Combined positions">+</span> Project Manager</b>, Private customer, <span class="job-date">March 2012 - November 2012</span><br/>
+            <ul>
+                <li>Implementation and design of the application for <a href="https://en.wikipedia.org/wiki/Planogram">planogram</a>,
+                    schemes of trading floors, shelving, placement of goods on shelves, maintenance of schemes of
+                    standard racks, printing of schemes and related documents, approval of changes, maintenance of the
+                    history of changes, interaction with the existing accounting system.
+                </li>
+                <li>Technology: Front (jQuery), Backend (Java, Servlet, jdbc, Tomcat), DB (Oracle)</li>
+            </ul>
+            <!--            Responsibilities: Formation of technical specifications, coordination with the customer, managing product roadmaps,-->
+            <!--            architecture design, designing, <a href="https://github.com/a-polyakov/ua.obzhora.planogram">development</a>, testing,-->
+            <!--            integration, user training, recording a video tutorial of working with the application <a-->
+            <!--                href="https://youtube.com/watch?v=VZflAGZNSLY" class="notPrint">watch the video</a><br/>-->
         </div>
         <br/>
-        <b>Java Developer <span title="Career growth">&#10148;</span> Team lead</b>, Trade Network "Obzhora", <span class="job-date">April 2010 - November 2012</span><br/>
-        Developed web applications and automated inventory management processes (receipts, write-off, production, transfers, refunds, pricing, discounts, inventory control).<br>
-        Implemented <a href="https://ru.wikipedia.org/wiki/SaaS">SaaS</a> architecture with hot module deployment.<br>
-        Built data retrieval mechanisms with filtering, sorting, and grouping, and implemented reporting with XLS/PDF export.<br>
-        Developed scheduling (Quartz), data import/export (DBF), and database migration mechanisms (Liquibase-like).<br>
-        Designed message passing, data history tracking, and business process automation with web data exchange services.<br/>
-        Technology: Front (jQuery, Struts), Backend (Java, Spring, Quartz, JMS, JXls, Tomcat), DB (PostgreSQL)<br/>
-<!--        Responsibilities: Designing, Development, Testing, Head of the development team<br/>-->
+        <b>Java Developer <span title="Career growth">&#10148;</span> Team lead</b>, Trade Network "Obzhora", <span
+            class="job-date">April 2010 - November 2012</span><br/>
+        <ul>
+            <li>Developed web applications and automated inventory management processes (receipts, write-off,
+                production, transfers, refunds, pricing, discounts, inventory control).
+            </li>
+            <li>Implemented <a href="https://ru.wikipedia.org/wiki/SaaS">SaaS</a> architecture with hot module
+                deployment.
+            </li>
+            <li>Built data retrieval mechanisms with filtering, sorting, and grouping, and implemented reporting with
+                XLS/PDF export. Developed scheduling (Quartz), data import/export (DBF), and database migration
+                mechanisms (Liquibase-like).
+            </li>
+            <li>Designed message passing, data history tracking, and business process automation with web data exchange
+                services.
+            </li>
+            <li>Technology: Front (jQuery, Struts), Backend (Java, Spring, Quartz, JMS, JXls, Tomcat), DB (PostgreSQL)
+            </li>
+        </ul>
+        <!--        Responsibilities: Designing, Development, Testing, Head of the development team<br/>-->
         <br/>
-        <div class="noBreak">
-        <b>Java Developer</b>, <a href="https://soft-xpansion.com/">"Soft-Xpansion Ukraine"</a>, <span class="job-date">January 2009 - April 2010</span><br/>
-        Developed report generation modules, including a user interface for parameter selection, query building,
-        data retrieval from databases, and exporting data to XLS - MS Excel. Also developed a data import module.<br/>
-        Technology: Java, <a href="https://en.wikipedia.org/wiki/Documentum">Documentum</a>, poi, jxls<br/>
-<!--        Responsibilities: Development, Testing<br/>-->
-        </div>
-        <br/>
-        <b>Java Developer</b>, <a href="http://ilyichsteel.metinvestholding.com/">"Illich Steel &amp; Iron Works"</a>,&nbsp;<span class="job-date">July 2007 - December 2008</span><br/>
-        Maintenance of the control system, development of an application for monitoring the rolling production of the
-        Rolling Shop 1700<br/>
-<!--        Technology: OpenVMS, Java, Oracle<br/>-->
-<!--        Responsibilities: Development, Testing, Maintenance<br/>-->
-        <br/>
+<!--        <div class="noBreak">-->
+<!--            <b>Java Developer</b>, <a href="https://soft-xpansion.com/">"Soft-Xpansion Ukraine"</a>, <span-->
+<!--                class="job-date">January 2009 - April 2010</span><br/>-->
+<!--            <ul>-->
+<!--                <li>Developed report generation modules, including a user interface for parameter selection, query-->
+<!--                    building, data retrieval from databases, and exporting data to XLS - MS Excel. Also developed a data-->
+<!--                    import module.-->
+<!--                </li>-->
+<!--                <li>Technology: Java, <a href="https://en.wikipedia.org/wiki/Documentum">Documentum</a>, poi, jxls</li>-->
+<!--            </ul>-->
+<!--            &lt;!&ndash;        Responsibilities: Development, Testing<br/>&ndash;&gt;-->
+<!--        </div>-->
+<!--        <br/>-->
+<!--        <b>Java Developer</b>, <a href="http://ilyichsteel.metinvestholding.com/">"Illich Steel &amp; Iron Works"</a>,&nbsp;<span-->
+<!--            class="job-date">July 2007 - December 2008</span><br/>-->
+<!--        <ul>-->
+<!--            <li>-->
+<!--                Maintenance of the control system, development of an application for monitoring the rolling production-->
+<!--                of the Rolling Shop 1700-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--        &lt;!&ndash;        Technology: OpenVMS, Java, Oracle<br/>&ndash;&gt;-->
+<!--        &lt;!&ndash;        Responsibilities: Development, Testing, Maintenance<br/>&ndash;&gt;-->
+<!--        <br/>-->
     </div>
     <input type="button" onclick="clickMoreExperience(this)" class="notPrint" value="Open more experience"/>
 
