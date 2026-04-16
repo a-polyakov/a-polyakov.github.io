@@ -57,15 +57,15 @@
         const cv = {
             "basics": {
                 "name": "Oleksandr Poliakov",
-                // "label": "Senior Java Developer | Team Lead | Software Architect | Technical Project Manager",
-                "label": "SENIOR JAVA DEVELOPER",
+                "label": "Senior Java Developer | Team Lead | Software Architect | Technical Project Manager",
+                // "label": "SENIOR JAVA DEVELOPER",
                 "image": "",
                 "email": "polyakov_alex@ukr.net",
                 "phone": "+1 647 465 00 23",
                 "url": "",
                 "overview": "Motivated to join a team where I can deliver high-quality solutions, share my expertise, and contribute to the company’s growth.",
                 "summary": "Senior Java Developer and Team Lead with 15+ years of experience in enterprise software engineering and system" +
-                    " architecture." +
+                    " architecture, focused on ensuring product excellence." +
                     " Strong expertise in scalable web applications, microservices, and distributed systems." +
                     " Proven track record of mentoring developers, leading teams of 10+, and delivering projects end-to-end from" +
                     " requirements to production.",
@@ -99,19 +99,23 @@
                         // "Improved and enhanced existing systems for multiple customers across various industries, applying best practices in software engineering and system design.",
                         "Developed a dedicated listing type for container-based classifieds, including volume calculation, pricing," +
                         " and delivery scheduling.",
-                        "Rewrote the integration between two legacy systems. One of them was upgraded and moved from FTP to S3." +
+                        "Rewrote the integration between two legacy systems. One of them was upgraded and migrated from FTP to S3." +
                         " Analyzed the existing implementation and rebuilt the integration accordingly.",
                         "Worked on bypassing a website CAPTCHA. In addition to text input, it offered an audio option," +
-                        " which a local model (Whisper-large-v3-turbo) was able to process and transcribe." +
+                        " which a local model (Whisper-large-v3-turbo) was able to process and transcribe.",
                         // " The solution was implemented as a Python module handling audio extraction and transcription.",
-                        "For a robotic call center, developed tests to validate conversation scenarios," +
-                        " ensuring that all required questions were asked and edge cases were handled." +
-                        " The issue was that while the system responded correctly to some predefined inputs," +
-                        " it behaved incorrectly in others, and manually verifying all scenarios was too time-consuming." +
-                        " A local AI model (Ollama, codellama) was used to validate the larger AI model after each retraining.",
+                        "Developed automated tests for a robotic call center to validate conversation scenarios," +
+                        " ensuring all required questions and edge cases were covered;" +
+                        " leveraged a local AI model (Ollama, CodeLlama) to validate responses of a larger AI model" +
+                        " after each retraining cycle, significantly reducing manual testing effort.",
                         "Architected and modernized service (Microservices) boundaries and APIs (Rest, OpenApi/Swagger) to enable independent team delivery and safer change management.",
                         "Created and maintained detailed test cases and test scenarios, ensuring comprehensive functional and regression test coverage.",
                         "Improved system reliability, maintainability, and deployment workflows through automated testing and continuous integration practices."
+                    ],
+                    location: "Canada Whitby, remote",
+                    technology: [
+                        "Java", "JUnit", "JPA (Hibernate)", "JTA", "Microservices", "Open API", "JUnit", "SQL",
+                        "MsSql", "MySql", "PostgreSQL", "Mongo", "Redis", "Minio S3", "Ollama", "codellama"
                     ]
                 },
                 {
@@ -129,7 +133,9 @@
                         "Implemented internal tools and frameworks for testing distributed environments," +
                         " including custom simulators for network failures, disk latency," +
                         " and node restarts - since no off-the-shelf testing tools could handle such scenarios."
-                    ]
+                    ],
+                    location: "Ukraine Donetsk, remote",
+                    technology: ["Java", "Multithreading"]
                 },
                 {
                     "name": "BIA-Technologies",
@@ -146,7 +152,9 @@
                         " implementing an Uber-style platform for cargo transportation, utilizing cloud infrastructure," +
                         " Docker containerization, and Kubernetes orchestration, for external communication - REST," +
                         " for internal communication - gRPC."
-                    ]
+                    ],
+                    location: "Ukraine Donetsk, remote",
+                    technology: ["GWT", "Java", "Spring", "Hibernate", "Microservices", "OpenTelemetry", "Kubernetes", "Docker", "gRPC"]
                 },
                 {
                     "name": "UNIT-ORG",
@@ -166,9 +174,15 @@
                         " task tracking, and monitoring tools (React, Spring, Tomcat, PostgreSQL).",
                         "Led technical specification development, coordinated requirements with stakeholders," +
                         " managed project delivery, led development team, and mentored engineers."
+                    ],
+                    location: "Ukraine Donetsk, remote",
+                    technology: [
+                        "ExtJs", "react", "jquery", "Java", "JEE", "Hibernate", "Activiti", "querydsl", "GlassFish",
+                        "Tomcat", "nginx", "PostgreSQL", "Mysql", "MongoDB", "Redis", "Ignite", "S3"
                     ]
                 },
                 {
+                    "noBreak": true,
                     "name": "SBSOFT",
                     "position": "Senior Java Developer",
                     "url": "http://www.sbsoft.ru/",
@@ -178,6 +192,10 @@
                     "highlights": [
                         "Developed a web application for automating the processes of the social insurance fund: planning on-site inspections, execution of inspections and related documents, printing, maintenance of directories.",
                         "Technology: Front (GWT, GXT), Backend (Java, Spring, TopLink, JasperReports, GlassFish), DB (Oracle)"
+                    ],
+                    location: "Ukraine Donetsk, remote",
+                    technology: [
+                        "GWT", "GXT", "Java", "Spring", "TopLink", "JasperReports", "GlassFish", "Oracle"
                     ]
                 },
                 {
@@ -196,6 +214,10 @@
                         "Periodic or scheduled synchronization with the server.",
                         "Implementation of components at the request of the customer.",
                         "Technology: Desktop (Java, Swing, JasperReports), DB (H2, VoltDB), message broker (Kafka, ZooKeeper)"
+                    ],
+                    location: "Ukraine Donetsk, remote",
+                    technology: [
+                        "Java", "Desktop", "swing", "jasperreport", "soap", "h2", "VoltDB", "Kafka", "ZooKeeper"
                     ]
                 },
                 {
@@ -208,20 +230,26 @@
                     "highlights": [
                         "Developed user account portal with paid-service access and payment integrations (2Checkout, WebMoney). Integration with payment systems (2Checkout, WebMoney).",
                         "Additionally developed a module for generating websites based on page templates and a database, generated a static set of HTML pages for further publication.",
-                        "Technology: Front (Bootstrap, Backbone), Backend (Java, Spring, Hibernate, Rest, Tomcat), DB (MySQL, Apache Cassandra)"
+                        "Technology: Front (Bootstrap, Backbone), Backend (Java, Spring, Hibernate, Microservices, Rest, Tomcat), DB (MySQL, Apache Cassandra)"
+                    ],
+                    location: "Ukraine Donetsk, onsite",
+                    technology: [
+                        "Bootstrap", "Backbone", "Java", "Spring", "Hibernate", "Microservices", "Rest", "Tomcat", "MySQL", "Apache Cassandra"
                     ]
                 },
                 {
                     "name": "Private customer",
                     "position": "Senior Java Developer + Analyst + Architect + Project Manager",
-                    "url": "",
+                    "url": "https://github.com/a-polyakov/ua.obzhora.planogram",
                     "startDate": "2012-03",
                     "endDate": "2012-11",
                     "summary": "",
                     "highlights": [
                         "Implementation and design of the application for planogram, schemes of trading floors, shelving, placement of goods on shelves, maintenance of schemes of standard racks, printing of schemes and related documents, approval of changes, maintenance of the history of changes, interaction with the existing accounting system.",
                         "Technology: Front (jQuery), Backend (Java, Servlet, jdbc, Tomcat), DB (Oracle)"
-                    ]
+                    ],
+                    location: "Ukraine Donetsk, remote",
+                    technology: ["jQuery", "Java", "Servlet", "jdbc", "Tomcat", "Oracle"]
                 },
                 {
                     "name": "Trade Network \"Obzhora\"",
@@ -237,7 +265,9 @@
                         "Developed scheduling (Quartz), data import/export (DBF), and database migration mechanisms (Liquibase-like).",
                         "Designed message passing, data history tracking, and business process automation with web data exchange services.",
                         "Technology: Front (jQuery, Struts), Backend (Java, Spring, Quartz, JMS, JXls, Tomcat), DB (PostgreSQL)"
-                    ]
+                    ],
+                    location: "Ukraine Donetsk, onsite",
+                    technology: ["jQuery", "Struts", "Java", "Spring", "Quartz", "JMS", "JXls", "Tomcat", "PostgreSQL"]
                 },
                 {
                     "hide": true,
@@ -250,7 +280,9 @@
                     "highlights": [
                         "Developed report generation modules, including a user interface for parameter selection, query building, data retrieval from databases, and exporting data to XLS — MS Excel. Also developed a data import module.",
                         "Technology: Java, Documentum, POI, JXLS"
-                    ]
+                    ],
+                    location: "Ukraine Donetsk, onsite",
+                    technology: ["Java", "Documentum", "POI", "JXLS"]
                 },
                 {
                     "hide": true,
@@ -262,7 +294,9 @@
                     "summary": "",
                     "highlights": [
                         "Maintenance of the control system, development of an application for monitoring the rolling production of the Rolling Shop 1700."
-                    ]
+                    ],
+                    location: "Ukraine Mariupol, onsite",
+                    technology: ["OpenVMS", "Java", "Oracle"]
                 }
             ],
             "volunteer": [],
@@ -506,6 +540,39 @@
         }
 
         function onLoad() {
+            if (false) { // fullstack
+                cv.basics.label = 'SENIOR JAVA FULL STACK DEVELOPER';
+                cv.basics.summary = cv.basics.summary.replace("Senior Java Developer", "Senior Java Full Stack Developer");
+                cv.work[0].position = "Senior Java Full Stack Developer";
+                cv.work[2].position = "Senior Java Full Stack Developer";
+                cv.work[4].position = "Senior Java Full Stack Developer";
+                cv.work[5].position = "Senior Java Full Stack Developer"; // USS
+                cv.work[6].position = "Senior Java Full Stack Developer"; // Awplanet
+                cv.work[7].position = "Senior Java Full Stack Developer + Project Manager";
+                cv.work[8].position = cv.work[8].position.replace("Java Developer", "Java Full Stack Developer");
+            }
+            if (false) { // qa
+                cv.basics.label = 'SOFTWARE DEVELOPMENT ENGINEER IN TEST';
+                cv.basics.summary = cv.basics.summary.replace("Senior Java Developer and Team Lead", "Software Development Engineer in Test");
+                cv.basics.summary = cv.basics.summary.replace(", leading teams of 10+,", "");
+
+                cv.work[0].position = "Software Development Engineer in Test";
+                cv.work[0].highlights[0] = "Increase automated test coverage, implemented UI test automation using Playwright and strengthen CI checks to reduce regressions and improve release safety, contributing to continuous improvement.";
+                cv.work[0].highlights[1] = "Created and maintained detailed test cases and test scenarios, ensuring comprehensive functional and regression test coverage.";
+                cv.work[0].highlights[2] = "Developed and maintained API test coverage, validating REST endpoints, request/response structures, and service integrations.";
+                cv.work[0].highlights.splice(3, 1)
+                // cv.work[0].highlights[4] = cv.work[0].highlights[4].replace("Rewrote", "Covered")
+                cv.work[0].highlights[3] += " Followed a test-first (TDD) approach."
+                cv.work[0].highlights.splice(6, 3)
+                cv.work[1].position = "Senior Java Developer in Test"; //GridGain
+                cv.work[1].highlights[3] = cv.work[1].highlights[3].replace("(QA, DevOps, Support) ", "");
+                cv.work[2].position = "Senior Java Developer"; // BIA-Technologies
+
+                cv.skills.splice(6, 1);
+                cv.work[6].highlights.splice(2, 1);
+                cv.work[9].hide = false;
+                cv.work[10].hide = false;
+            }
             renderBasics(cv.basics);
             renderSkills(cv.skills);
             renderCertificates(cv.certificates);
@@ -564,6 +631,9 @@
             works.forEach(work => {
                 if (!work.hide) {
                     const div = document.createElement("div");
+                    if (work.noBreak) {
+                        div.className = "noBreak";
+                    }
                     let endDate = work.endDate ? dateFormat(work.endDate) : "Present";
                     if (work.additionalDate) {
                         endDate += ` (${work.additionalDate})`;
